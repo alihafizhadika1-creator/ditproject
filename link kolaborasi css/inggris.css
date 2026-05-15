@@ -1,0 +1,84 @@
+/* NAVBAR */
+.navbar {
+    background-color: #81C784;
+    height: 70px;
+    width: 100%;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    z-index: 9999;
+    box-sizing: border-box;
+}
+
+.navbar-logo {
+    white-space: nowrap;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.navbar-menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: #1B5E20;
+}
+
+/* AGAR ANCHOR TIDAK TERSEMBUNYI DI BAWAH NAVBAR */
+section {
+    scroll-margin-top: 90px;
+}
+
+body {
+    background: #E8F5E9;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+}
+
+/* ISI */
+.content-wrapper {
+    background: #ffffff;
+    padding: 40px;
+    margin: 40px auto;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* FOOTER */
+.footer {
+    background-color: #81C784;
+    color: #E8F5E9;
+    padding: 40px 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-links li:hover {
+    text-decoration: underline;
+}
